@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #121212;
   --foreground: #171717;
 }
 
@@ -18,4 +18,8 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-flex.primary.flex-row.justify-center.v-card.v-card--flat.v-sheet.theme--light.rounded-0{
+  display: none;
 }
