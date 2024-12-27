@@ -20,7 +20,7 @@ const Section2 = () => {
             >{`We are a vibrant community united by a common mission.`}</p>
             <p className="text-base mt-4 text-[#42526D]" >{`We aim to lose weight, shed fat, build muscle, and foster overall health and well-being.`}</p>
             <div className="flex justify-end mt-8">
-              <Link href={"https://bookings.vibefam.com/senamhub/packages"} className="p-5 bg-[#C9DA2C] w-fit rounded text-[#42526D]">Become a member</Link>
+              <Link href={"https://bookings.vibefam.com/senamhub/signup/"} className="p-5 bg-[#C9DA2C] w-fit rounded text-[#42526D]">Become a member</Link>
             </div>
           </div>
         </div>
