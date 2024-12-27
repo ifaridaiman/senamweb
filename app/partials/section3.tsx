@@ -7,13 +7,13 @@ const Section3 = () => {
       <div className="max-w-[1600px] grid md:grid-cols-2 items-center ">
         <div className="flex flex-row justify-center px-8" data-aos="fade-right">
           <div className="px-4">
-            <p className="text-[#C9DA2C] text-5xl font-black">01.</p>
+            <p className="text-[#C9DA2C] text-9xl font-black">01.</p>
           </div>
           <div className=" w-fit">
-            <p className="text-[#C9DA2C] text-3xl mb-4 font-bold">{`Our Coaches`}</p>
+            <p className="text-[#C9DA2C] text-5xl mb-4 font-bold">Certified <br/> Coaches</p>
             <hr className="border-[#C9DA2C]" />
-            <p className="text-[#C9DA2C] text-base mt-4">{`Under the guidance of Coach Isrul, our team of Senam Certified Coaches is here to motivate and assist you in achieving your health and fitness goals.`}</p>
-            <p className="text-[#C9DA2C] text-base mt-4">{`Our coaches are experts in their field, ensuring a consistent and high-quality fitness experience for every participant.`}</p>
+            <p className="text-[#C9DA2C] text-base mt-4">{`Led by founder Isrul Firdaus, our team of SenamCoaches is here to motivate and assist you in achieveing your health and fitness goals. Our coaches are experts in their field, ensuring a consistent and high-quality fitness exprience for every participants.`}</p>
+            {/* <p className="text-[#C9DA2C] text-base mt-4">{`Our coaches are experts in their field, ensuring a consistent and high-quality fitness experience for every participant.`}</p> */}
           </div>
         </div>
         <div className=" md:border-l-2 px-4 md:pl-10 mt-8">

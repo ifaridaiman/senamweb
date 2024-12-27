@@ -11,8 +11,7 @@ const Section5 = () => {
           <div className=" w-fit">
             <p className="text-[#42526D] text-3xl mb-4 font-bold">{`Amazing Results`}</p>
             <hr className="border-[#42526D]" />
-            <p className="text-[#42526D] text-base mt-4">{`Senam has been dedicated to transforming lives for over 6 years, and our track record speaks for itself.`}</p>
-            <p className="text-[#42526D] text-base mt-4">{`With a team of experienced Senam Certified Coaches, we’ve successfully guided and supported over 400 clients on their journey towards achieving their health and fitness targets.`}</p>
+            <p className="text-[#42526D] text-base mt-4">{`Senam has been operating for over 8 years, proudly helping over 500 clients achieve their health and fitness goals, whether it's weight loss, building strength, or improving mobility. The results speak for themselves—take a look at some of our inspiring before-and-after transformations.`}</p>
           </div>
         </div>
         <div className="border-l-2 pl-10">

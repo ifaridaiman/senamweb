@@ -17,7 +17,7 @@ const Section4 = () => {
           <div className=" w-fit">
             <p className="text-[#42526D] text-3xl mb-4 font-bold">{`State of the Art Equipments`}</p>
             <hr className="border-[#42526D]" />
-            <p className="text-[#42526D] text-base mt-4">{`Our state-of-the-art facility is designed to inspire and energize your fitness journey. Featuring cutting-edge equipment, spacious workout zones, modern restrooms, shower amenities, and inviting outdoor areas, we provide everything you need to crush your goals and enjoy every step of the way.`}</p>
+            <p className="text-[#42526D] text-base mt-4">{`Our brand new facility in Senam ensures you feel energized and motivated to get your workouts. With the greatest equipment on offer, you'll have everything you need to crush your fitness goals.`}</p>
           </div>
         </div>
       </div>
