@@ -13,7 +13,7 @@ const Section4 = () => {
         </div>
         <div className="flex flex-row justify-center px-8 border-b-2 md:border-b-0 py-4  md:pl-10 w-full md:w-1/2 h-full" data-aos="fade-in">
           <div className="px-4">
-            <p className={`text-[#42526D] text-5xl font-black ${outerSansMedium.className}`}>02.</p>
+            <p className={`text-[#42526D] text-4xl md:text-9xl font-black ${outerSansMedium.className}`}>02.</p>
           </div>
           <div className=" w-fit">
             <p className={`text-[#42526D] text-3xl mb-4 font-bold ${outerSansRegular.className}`}>{`State of the Art Equipments`}</p>

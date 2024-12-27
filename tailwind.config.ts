@@ -14,7 +14,16 @@ export default {
       },
       backgroundImage:{
         "hero-banner": "url('/assets/background/senamClub_HeroBanner.jpg')"
-      }
+      },
+      keyframes: {
+        scrollText: {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        scroll: "scrollText 33s linear infinite",
+      },
     },
   },
   plugins: [],

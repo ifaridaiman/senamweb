@@ -7,7 +7,7 @@ const Section5 = () => {
       <div className="max-w-[1600px] grid md:grid-cols-2 items-center">
         <div className="flex flex-row justify-center px-4 " data-aos="fade-right">
           <div className="px-4">
-            <p className={`text-[#42526D] text-5xl font-black ${outerSansMedium.className}`}>03.</p>
+            <p className={`text-[#42526D] text-4xl md:text-9xl font-black ${outerSansMedium.className}`}>03.</p>
           </div>
           <div className=" w-fit">
             <p className={`text-[#42526D] text-3xl mb-4 font-bold ${outerSansRegular.className}`}>{`Amazing Results`}</p>

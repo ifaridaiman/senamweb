@@ -20,7 +20,7 @@ const Section1 = () => {
         <h1 className="text-white text-base md:text-5xl ">Strength</h1>
       </div>
       <div className="mt-8">
-        <Link href={"https://bookings.vibefam.com/senamhub/classes"} className="p-5 bg-[#C9DA2C] w-fit rounded-full text-[#42526D] font-medium text-xl">Register Pre-Sale</Link>
+        <Link href={"https://bookings.vibefam.com/senamhub/signup/"} className="p-5 bg-[#C9DA2C] w-fit rounded-full text-[#42526D] font-medium text-xl">Register Pre-Sale</Link>
       </div>
     </section>
   );
