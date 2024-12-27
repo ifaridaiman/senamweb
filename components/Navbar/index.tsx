@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [colorSection, setColorSection] = useState("#C9DA2C");
-
+  const [logoMobileSrc, setLogoMobileSrc] = useState("/assets/logo/senamLogo_IconOnly.png");
+  const [logoDesktopSrc, setLogoDesktopSrc] = useState("/assets/logo/senamLogo_vertical.png");
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
@@ -21,6 +22,14 @@ const Navbar = () => {
       });
 
       setColorSection(currentColor);
+
+      if(currentColor ==="#121212") {
+        setLogoMobileSrc("/assets/logo/senamLogoBlack_IconOnly.png")
+        setLogoDesktopSrc("/assets/logo/senamLogoBlack_Vertical.png")
+      }else{
+        setLogoMobileSrc("/assets/logo/senamLogo_IconOnly.png")
+        setLogoDesktopSrc("/assets/logo/senamLogo_vertical.png")
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -32,14 +41,14 @@ const Navbar = () => {
       <Link href={"/"}>
         <Image
           className="block md:hidden"
-          src={"/assets/logo/senamLogo_IconOnly.png"}
+          src={logoMobileSrc}
           width={37}
           height={37}
           alt="LogoImage"
         />
         <Image
           className="hidden md:block"
-          src={"/assets/logo/senamLogo_vertical.png"}
+          src={logoDesktopSrc}
           width={200}
           height={100}
           alt="LogoImage"
