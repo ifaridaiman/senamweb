@@ -10,9 +10,9 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 800, // Animation duration in milliseconds
+      duration: 1200, // Animation duration in milliseconds
       easing: "ease-in-out", // Easing function
-      once: true, // Whether animation should happen only once
+      once: false, // Whether animation should happen only once
     });
   },[])
   
