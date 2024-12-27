@@ -8,10 +8,10 @@ const Section2 = () => {
     <section
       id="why-senam"
       data-color="#FAFBEA"
-      className="bg-[#FAFBEA] h-auto md:h-screen flex justify-center items-center"
+      className="bg-[#FAFBEA] h-auto md:h-screen flex justify-center items-center py-24 px-8 md:py-0 md:px-0"
     >
       <div className="max-w-[1600px] grid md:grid-cols-2">
-        <div className="flex flex-col justify-center px-4 md:pr-10 py-4">
+        <div className="flex flex-col justify-center md:pr-10 py-4">
           <div className="w-fit" data-aos="fade-in">
             <p
               className={`text-3xl mb-4 font-bold text-[#42526D] ${outerSansRegular.className}`}

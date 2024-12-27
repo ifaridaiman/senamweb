@@ -8,10 +8,10 @@ const Section4 = () => {
         
         <div className="px-4 pr-10 md:pr-4 w-1/2 md:border-r-2">
           <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="thumbnail w-[360px] h-[331px] bg-black"></div>
+            {/* <div className="thumbnail w-[360px] h-[331px] bg-black"></div> */}
           </div>
         </div>
-        <div className="flex flex-row justify-center px-8 border-b-2 md:border-b-0 py-4  md:pl-10 w-full md:w-1/2 h-full" data-aos="fade-left">
+        <div className="flex flex-row justify-center px-8 border-b-2 md:border-b-0 py-4  md:pl-10 w-full md:w-1/2 h-full" data-aos="fade-in">
           <div className="px-4">
             <p className={`text-[#42526D] text-5xl font-black ${outerSansMedium.className}`}>02.</p>
           </div>
