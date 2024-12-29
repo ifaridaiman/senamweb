@@ -19,8 +19,7 @@ const Section6 = () => {
             <p className={`text-xl md:text-2xl mb-4 ${mulishLight.className}`}>
               All our memberships are <span className={`${mulishBold.className}`}>unlimited</span>—train as much as you want! The
               minimum commitment is 2 months, but the membership is flexible and
-              auto-renews monthly unless you opt to cancel at no cost after the
-               <span className={`${mulishBold.className}`}>initial term (2 months)</span>.
+              auto-renews monthly unless you opt to cancel at no cost after the <span className={`${mulishBold.className}`}>initial term (2 months)</span>.
             </p>
             <p className={`text-xl md:text-2xl mb-4 ${mulishLight.className}`}>For those who prefer non-recurring options, we also offer:</p>
             <ul className={`text-xl md:text-2xl mb-4 ${mulishLight.className} list-disc ml-5 md:ml-8`}>
