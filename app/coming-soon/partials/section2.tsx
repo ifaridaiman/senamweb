@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import toast, { Toaster } from 'react-hot-toast';
 interface FormData {
   name: string;
   email: string;
@@ -66,7 +66,7 @@ const Section2: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('/api/PreSale', {
+      const response = await fetch('/api/presale', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -77,21 +77,22 @@ const Section2: React.FC = () => {
       const result = await response.json();
 
       if (response.ok) {
-        alert('Form submitted successfully!');
+        toast.success('Form submitted successfully!');
         setFormData({ name: '', email: '', phone: '' }); // Clear form
       } else {
-        alert(`Error: ${result.error}`);
+        toast.error(`Error: ${result.error}`);
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('An unexpected error occurred. Please try again.');
+      toast.error('An unexpected error occurred. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <div className="md:max-w-[1600px] mx-auto">
+    <div className="md:max-w-[1600px] mx-auto" data-aos="fade-up">
+      <Toaster />
       <div className="h-auto md:h-screen flex flex-col justify-top items-center py-28 px-8">
         <h2 className="text-6xl">BE THE FIRST TO KNOW</h2>
         <p className="text-4xl">WHEN SENAM PRE-SALE DROPS</p>
