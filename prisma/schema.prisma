@@ -18,6 +18,7 @@ model UserPreSales {
   id          String   @id @default(uuid()) // UUID as primary key
   name        String
   email       String   @unique
+  phone       String   @unique
   createdAt   DateTime @default(now())      // Automatically sets the current timestamp
   updatedAt   DateTime @updatedAt           // Automatically updates timestamp on modification
   deletedAt   DateTime?                     // Nullable for soft delete

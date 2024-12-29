@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from "react";
+import AOS from "aos";
 import Section1 from "./partials/section1";
 import Section2 from "./partials/section2";
 import Section3 from "./partials/section3";
@@ -26,6 +27,14 @@ const Page = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, // Animation duration in milliseconds
+      easing: "ease-in-out", // Easing function
+      once: false, // Whether animation should happen only once
+    });
+  },[])
 
   const handleGoToTop = () => {
     window.scrollTo({
