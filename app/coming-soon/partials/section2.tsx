@@ -1,3 +1,4 @@
+import { mulishLight, outerSansMedium, outerSansRegular } from '@/app/fonts/font';
 import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 interface FormData {
@@ -94,11 +95,11 @@ const Section2: React.FC = () => {
     <div className="md:max-w-[1600px] mx-auto text-black" data-aos="fade-up">
       <Toaster />
       <div className="h-auto md:h-screen flex flex-col justify-top items-center py-28 px-8 ">
-        <h2 className="text-6xl">BE THE FIRST TO KNOW</h2>
-        <p className="text-4xl">WHEN SENAM PRE-SALE DROPS</p>
+        <h2 className={`text-6xl ${outerSansRegular.className}`}>BE THE FIRST TO KNOW</h2>
+        <p className={`text-4xl ${mulishLight.className}`}>WHEN SENAM PRE-SALE DROPS</p>
         <form onSubmit={handleSubmit} className="mt-20 w-full md:w-[800px]">
           <div className="flex flex-col mb-4">
-            <label className="text-xl font-black mb-2">Name *</label>
+            <label className={`text-xl font-black mb-2 ${outerSansMedium.className}`}>Name *</label>
             <input
               className={`p-2 w-full rounded border ${
                 errors.name ? 'border-red-500' : 'border-gray-300'
@@ -113,7 +114,7 @@ const Section2: React.FC = () => {
           </div>
 
           <div className="flex flex-col mb-4">
-            <label className="text-xl font-black mb-2">Phone *</label>
+            <label className={`text-xl font-black mb-2 ${outerSansMedium.className}`}>Phone *</label>
             <input
               className={`p-2 w-full rounded border ${
                 errors.phone ? 'border-red-500' : 'border-gray-300'
@@ -128,7 +129,7 @@ const Section2: React.FC = () => {
           </div>
 
           <div className="flex flex-col mb-4">
-            <label className="text-xl font-black mb-2">Email *</label>
+            <label className={`text-xl font-black mb-2 ${outerSansMedium.className}`}>Email *</label>
             <input
               className={`p-2 w-full rounded border ${
                 errors.email ? 'border-red-500' : 'border-gray-300'
@@ -144,7 +145,7 @@ const Section2: React.FC = () => {
 
           <div>
             <button
-              className="w-full p-4 mt-10 bg-black text-white rounded text-xl hover:bg-slate-950 transition-all duration-200 ease-in-out"
+              className={`w-full p-4 mt-10 bg-black text-white rounded text-xl hover:bg-slate-950 transition-all duration-200 ease-in-out ${outerSansRegular.className}`}
               type="submit"
               disabled={isSubmitting}
             >
