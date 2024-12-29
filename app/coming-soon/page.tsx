@@ -9,7 +9,7 @@ import Section6 from "./partials/section6";
 import Section7 from "./partials/section7";
 import Section8 from "./partials/section8";
 
-const page = () => {
+const Page = () => {
   const [showGoToTop, setShowGoToTop] = useState<boolean>(false);
 
   useEffect(() => {
@@ -57,4 +57,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

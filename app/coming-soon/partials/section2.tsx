@@ -1,7 +1,6 @@
 import {
   mulishBold,
   mulishLight,
-  outerSansMedium,
   outerSansRegular,
 } from "@/app/fonts/font";
 import React from "react";
