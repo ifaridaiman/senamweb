@@ -7,7 +7,7 @@ const Section3 = () => {
     <div className="md:max-w-[1600px] mx-auto">
         <div className='flex flex-col md:flex-row gap-4 h-auto md:h-screen justify-center items-top md:p-20 p-8'>
             <div className='w-full md:w-1/2 flex justify-center items-center'>
-                <Image src={'/assets/comingSoon/senamClub_comingsoon2.png'} alt='senamClubComingSoon2' width={500} height={800} className='h-full w-full' />
+                <Image src={'/assets/comingSoon/senamClub_comingsoon2.png'} alt='senamClubComingSoon2' width={500} height={800} className='h-full w-full md:w-auto' />
             </div>
             <div className='w-full md:w-1/2'>
                 <div className={`mb-4`}>

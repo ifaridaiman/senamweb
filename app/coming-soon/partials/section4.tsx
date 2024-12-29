@@ -27,7 +27,7 @@ const Section4 = () => {
 
             </div>
             <div className='w-full md:w-1/2 flex justify-center items-center'>
-                <Image src={'/assets/comingSoon/senamClub_comingsoon3.png'} alt='senamClubComingSoon3' width={500} height={800} className='h-full w-full' />
+                <Image src={'/assets/comingSoon/senamClub_comingsoon3.png'} alt='senamClubComingSoon3' width={500} height={800} className='h-full w-full md:w-auto' />
 
             </div>
         </div>

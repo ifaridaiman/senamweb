@@ -49,7 +49,7 @@ const Section7 = () => {
             alt="senamClubComingSoon6"
             width={500}
             height={800}
-            className="h-full w-full"
+            className="h-full w-full md:w-auto"
           />
         </div>
       </div>
