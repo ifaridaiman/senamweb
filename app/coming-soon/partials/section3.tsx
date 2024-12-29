@@ -4,7 +4,7 @@ import React from 'react'
 
 const Section3 = () => {
   return (
-    <div className="md:max-w-[1600px] mx-auto" data-aos="fade-up">
+    <div className="md:max-w-[1600px] mx-auto text-black" data-aos="fade-up">
         <div className='flex flex-col md:flex-row gap-4 h-auto md:h-screen justify-center items-top md:p-20 p-8'>
             <div className='w-full md:w-1/2 flex justify-center items-center'>
                 <Image src={'/assets/comingSoon/senamClub_comingsoon2.png'} alt='senamClubComingSoon2' width={500} height={800} className='h-full w-full md:w-auto' />

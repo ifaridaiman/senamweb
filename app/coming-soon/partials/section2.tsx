@@ -91,9 +91,9 @@ const Section2: React.FC = () => {
   };
 
   return (
-    <div className="md:max-w-[1600px] mx-auto" data-aos="fade-up">
+    <div className="md:max-w-[1600px] mx-auto text-black" data-aos="fade-up">
       <Toaster />
-      <div className="h-auto md:h-screen flex flex-col justify-top items-center py-28 px-8">
+      <div className="h-auto md:h-screen flex flex-col justify-top items-center py-28 px-8 ">
         <h2 className="text-6xl">BE THE FIRST TO KNOW</h2>
         <p className="text-4xl">WHEN SENAM PRE-SALE DROPS</p>
         <form onSubmit={handleSubmit} className="mt-20 w-full md:w-[800px]">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Section4 = () => {
   return (
-    <div className="md:max-w-[1600px] mx-auto" data-aos="fade-up">
+    <div className="md:max-w-[1600px] mx-auto text-black" data-aos="fade-up">
         <div className='flex flex-col-reverse md:flex-row gap-4 h-auto md:h-screen justify-center items-top md:p-20 p-8'>
             <div className='w-full md:w-1/2 '>
                 <div className={`mb-8`}>

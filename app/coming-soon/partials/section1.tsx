@@ -17,8 +17,8 @@ const Section1 = () => {
         />
       </div>
       <div className="flex flex-col justify-center items-center">
-          <h1 className={`text-white text-xl md:text-5xl mb-4 ${outerSansRegular.className}`}>WANGSA MAJU</h1>
-          <h2 className={`text-white text-base md:text-4xl mb-4 ${mulishLight.className}`}>SENAM MEMBERSHIP</h2>
+          <h1 className={`text-white text-2xl text-center md:text-5xl mb-4 ${outerSansRegular.className}`}>WANGSA MAJU</h1>
+          <h2 className={`text-white text-2xl text-center md:text-4xl mb-4 ${mulishLight.className}`}>SENAM MEMBERSHIP</h2>
       </div>
     </section>
   );

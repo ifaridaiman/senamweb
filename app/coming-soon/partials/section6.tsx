@@ -26,7 +26,7 @@ const Section6 = () => {
             <ul className={`text-xl md:text-2xl mb-4 ${mulishLight.className} list-disc ml-5 md:ml-8`}>
               <li>Walk-In Sessions</li>
               <li>10x Visit Pass</li>
-              <li>1=Month Pass</li>
+              <li>1-Month Pass</li>
             </ul>
             <p className={`text-xl md:text-2xl mb-4 ${mulishLight.className}`}>
               Keep in mind that non-recurring packages have higher fees compared
