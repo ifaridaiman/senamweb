@@ -6,7 +6,7 @@ const Section1 = () => {
     <section
       id="section1"
       data-color=""
-      className="h-screen w-auto z-0 bg-hero-comingSoon-banner-mobile md:bg-hero-comingSoon-banner-desktop bg-center-18 md:bg-center bg-no-repeat bg-cover flex justify-between flex-col p-20"
+      className="h-screen w-auto z-0 bg-hero-comingSoon-banner-desktop md:bg-hero-comingSoon-banner-desktop bg-center-18 md:bg-center bg-no-repeat bg-cover flex justify-between flex-col p-20"
     >
       <div className="flex justify-center ">
         <Image
