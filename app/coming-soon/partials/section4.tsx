@@ -14,8 +14,8 @@ const Section4 = () => {
                     <ol className={`${outerSansRegular.className} text-xl md:text-3xl list-decimal ml-5 md:ml-10`}>
                         <li>Hypertrophy/Endurance</li>
                         <li>Strength/Strength Endurance</li>
-                        <li>Hypertrophy/Endurance</li>
-                        <li>Hypertrophy/Endurance</li>
+                        <li>Maximal Output</li>
+                        <li>Deload</li>
                     </ol>
                 </div>
 

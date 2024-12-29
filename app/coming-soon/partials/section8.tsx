@@ -9,7 +9,7 @@ const Section8 = () => {
             <div className="w-full md:w-2/3 flex flex-col justify-between">
                 <div>
                     <h4 className={`${outerSansRegular.className} text-2xl md:text-4xl mb-10`}>Q: WHEN WILL SENAM 2025 OFFICIALLY OPEN?</h4>
-                    <p className={`text-xl md:text-2xl mb-8  ${mulishLight.className}`}>The new and improved Senam is gearing up to launch in early February 2025! We’re currently in the final stages of setting up equipment and preparing the space to deliver the ultimate strength and conditioning experience.</p>
+                    <p className={`text-xl md:text-2xl mb-8  ${mulishLight.className}`}>The new and improved Senam is gearing up to launch in <span className='font-bold'>early February 2025!</span> We’re currently in the final stages of setting up equipment and preparing the space to deliver the ultimate strength and conditioning experience.</p>
                     <p className={`text-xl md:text-2xl mb-8  ${mulishLight.className}`}>To celebrate the launch, we’re offering an exclusive pre-sale deal for early sign-ups. This limited-time offer gives you a chance to secure your spot at a significantly discounted rate before we officially open. Don’t miss out—be part of the first wave of participants to experience the new Senam!</p>
                 </div>
                 <div >
