@@ -1,19 +1,18 @@
 import { PrismaClient } from '@prisma/client';
-import { NextResponse } from 'next/server';
 
 const prisma = new PrismaClient();
 
-export async function POST(req: Request) {
+export async function POST(req: Request): Promise<Response> {
   try {
-    // Parse the request body
+    // Parse the request body (fetch API requires parsing JSON explicitly)
     const body = await req.json();
     const { name, email, phone } = body;
 
     // Validate input
     if (!name || !email || !phone) {
-      return NextResponse.json(
-        { error: 'Name, email, and phone are required.' },
-        { status: 400 }
+      return new Response(
+        JSON.stringify({ error: 'Name, email, and phone are required.' }),
+        { status: 400, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
@@ -22,15 +21,16 @@ export async function POST(req: Request) {
       data: { name, email, phone },
     });
 
-    return NextResponse.json(
-      { message: 'User created successfully', user },
-      { status: 201 }
+    return new Response(
+      JSON.stringify({ message: 'User created successfully', user }),
+      { status: 201, headers: { 'Content-Type': 'application/json' } }
     );
   } catch (error) {
     console.error('Error:', error);
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
+
+    return new Response(
+      JSON.stringify({ error: 'Internal server error' }),
+      { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
   }
 }
