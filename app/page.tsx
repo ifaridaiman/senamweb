@@ -5,6 +5,7 @@ import Section3 from "./partials/section3";
 import Section4 from "./partials/section4";
 import Section5 from "./partials/section5";
 import AOS from "aos";
+import Footer from "@/components/Footer";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Footer />
+
     </>
   );
 }

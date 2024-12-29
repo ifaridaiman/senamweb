@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import { SignedIn, UserButton } from "@clerk/nextjs";
 const Navbar = () => {
   const [colorSection, setColorSection] = useState("#C9DA2C");
   const [logoMobileSrc, setLogoMobileSrc] = useState(
@@ -129,6 +129,7 @@ const Navbar = () => {
               Contact Us
             </span>
           </Link>
+          
         </div>
       </div>
 
@@ -148,6 +149,11 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/contact">Contact Us</Link>
+          </li>
+          <li>
+          <SignedIn>
+            <UserButton/>
+          </SignedIn>
           </li>
         </ul>
       </div>

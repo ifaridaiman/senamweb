@@ -13,7 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage:{
-        "hero-banner": "url('/assets/background/senamClub_HeroBanner.jpg')"
+        "hero-comingSoon-banner-desktop": "url('/assets/comingSoon/senamClub_comingsoon1_desktop.png')",
+        "hero-comingSoon-banner-mobile": "url('/assets/comingSoon/senamClub_comingsoon1_mobile.png')"
       },
       keyframes: {
         scrollText: {
@@ -24,6 +25,9 @@ export default {
       animation: {
         scroll: "scrollText 33s linear infinite",
       },
+      backgroundPosition:{
+        'center-18': 'center left -10rem'
+      }
     },
   },
   plugins: [],
