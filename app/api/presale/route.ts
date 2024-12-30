@@ -16,6 +16,22 @@ export async function POST(req: Request): Promise<Response> {
       );
     }
 
+     // Check for duplicate email or phone
+     const existingUser = await prisma.userPreSales.findFirst({
+      where: {
+        OR: [{ email }, { phone }],
+      },
+    });
+
+    if (existingUser) {
+      return new Response(
+        JSON.stringify({
+          error: "This email or phone already exists.",
+        }),
+        { status: 409, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
     // Create a new UserPreSales record
     const user = await prisma.userPreSales.create({
       data: { name, email, phone },
