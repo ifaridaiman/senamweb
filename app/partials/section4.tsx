@@ -4,7 +4,7 @@ import { mulishLight, outerSansMedium, outerSansRegular } from "../fonts/font";
 const Section4 = () => {
   return (
     <section id="section4" data-color="#FAFBEA" className="bg-[#FAFBEA] h-screen flex justify-center items-center">
-      <div className="max-w-[1600px] flex flex-col-reverse md:flex-row gap-4 items-center w-full md:h-[320px]">
+      <div className="max-w-7xl flex flex-col-reverse md:flex-row gap-4 items-center w-full md:h-[320px]">
         
         <div className="px-4 pr-10 md:pr-4 w-1/2 md:border-r-2">
           <div className="grid grid-cols-1 md:grid-cols-3">

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Section1 from "./partials/section1";
 import Section2 from "./partials/section2";
 import Section3 from "./partials/section3";
@@ -7,6 +7,7 @@ import Section5 from "./partials/section5";
 import AOS from "aos";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   useEffect(() => {
@@ -15,17 +16,17 @@ export default function Home() {
       easing: "ease-in-out", // Easing function
       once: false, // Whether animation should happen only once
     });
-  },[])
-  
+  }, []);
+
   return (
     <>
+      <Navbar />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
       <Footer />
-
     </>
   );
 }

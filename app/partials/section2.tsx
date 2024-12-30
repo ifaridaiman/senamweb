@@ -10,7 +10,7 @@ const Section2 = () => {
       data-color="#FAFBEA"
       className="bg-[#FAFBEA] h-auto md:h-screen flex justify-center items-center py-24 px-8 md:py-0 md:px-0"
     >
-      <div className="max-w-[1600px] grid md:grid-cols-2">
+      <div className="max-w-7xl grid md:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-10 py-4">
           <div className="w-fit" data-aos="fade-in">
             <p

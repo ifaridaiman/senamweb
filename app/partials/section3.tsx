@@ -5,7 +5,7 @@ import { mulishLight, outerSansMedium, outerSansRegular } from "../fonts/font";
 const Section3 = () => {
   return (
     <section id="section3" data-color="#292929" className="bg-[#292929] h-auto md:h-screen flex justify-center items-center py-24 px-8 md:0 gap-4">
-      <div className="max-w-[1600px] grid md:grid-cols-2 items-center ">
+      <div className="max-w-7xl grid md:grid-cols-2 items-center ">
         <div className="flex flex-row justify-center px-4 pr-10 md:px-8" data-aos="fade-right">
           <div className="px-4">
             <p className={`text-[#C9DA2C] text-4xl md:text-9xl font-black ${outerSansMedium.className}`}>01.</p>

@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="flex justify-between items-center max-w-[1600px] mx-auto py-6 sticky top-0 z-50 px-8"
+      className="flex justify-between items-center max-w-7xl mx-auto py-6  top-0 z-50 px-8"
       style={{ transition: "background-color 0.3s ease" }}
     >
       <Link href={"/"}>
@@ -106,7 +106,7 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col items-center justify-center h-full gap-8">
-          <Link href="#why-senam" onClick={toggleMenu}>
+          <Link href="/#why-senam" onClick={toggleMenu}>
             <span className="text-5xl" style={{ color: colorSection }}>
               Why Senam
             </span>
@@ -114,6 +114,7 @@ const Navbar = () => {
           <Link
             href="https://bookings.vibefam.com/senamhub/classes"
             onClick={toggleMenu}
+            target="_blank"
           >
             <span className="text-5xl" style={{ color: colorSection }}>
               Membership
