@@ -42,7 +42,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-80 bg-hero-trainingCLub-banner-1 bg-cover bg-no-repeat bg-center bg-gray-50"></div>
+      <div className="w-full h-80 bg-hero-trainingCLub-banner-2 bg-cover bg-no-repeat bg-center bg-gray-50"></div>
     </div>
   );
 };
