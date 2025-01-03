@@ -15,7 +15,8 @@ export default {
       backgroundImage:{
         "hero-comingSoon-banner-desktop": "url('/assets/comingSoon/senamClub_comingsoon1_desktop.png')",
         "hero-comingSoon-banner-mobile": "url('/assets/comingSoon/senamClub_comingsoon1_mobile.png')",
-        "hero-trainingCLub-banner" : "url('/assets/background/senamClub_HeroBanner_TrainingCLub.png')",
+        "hero-trainingCLub-banner-1" : "url('/assets/background/senamClub_HeroBanner_TrainingCLub-1.jpg')",
+        "hero-trainingCLub-banner-2" : "url('/assets/background/senamClub_HeroBanner_TrainingCLub-2.png')",
         "hero-trainingCLub-banner-logo" : "url('/assets/background/senamClub_HeroBanner_TrainingClub_LOGOONLY.jpg')",
       },
       keyframes: {

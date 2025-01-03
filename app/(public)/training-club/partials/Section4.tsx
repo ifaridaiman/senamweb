@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Section4 = () => {
   return (
-    <div className="bg-[#FAFBEA] h-auto py-10 md:py-24 text-[#42526D]">
+    <div className="bg-[#FAFBEA] h-auto pt-10 md:pt-24 text-[#42526D]">
       <div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row justify-top p-8" data-aos="fade-up">
         <div className="w-full md:w-1/2">
           <h1 className={`${outerSansRegular.className} text-5xl mb-8`}>
@@ -42,6 +42,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
+      <div className="w-full h-80 bg-hero-trainingCLub-banner-1 bg-cover bg-no-repeat bg-center bg-gray-50"></div>
     </div>
   );
 };

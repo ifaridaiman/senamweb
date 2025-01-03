@@ -49,7 +49,7 @@ const Section2 = () => {
         </div>
       </div>
 
-      <div className="w-full h-80 bg-hero-trainingCLub-banner bg-cover bg-no-repeat bg-center bg-gray-50"></div>
+      <div className="w-full h-80 bg-hero-trainingCLub-banner-1 bg-cover bg-no-repeat bg-center bg-gray-50"></div>
     </div>
   );
 };

@@ -10,8 +10,8 @@ const Section2 = () => {
       data-color="#FAFBEA"
       className="bg-[#FAFBEA] h-auto md:h-screen flex justify-center items-center py-24 px-8 md:py-0 md:px-0"
     >
-      <div className="max-w-7xl grid md:grid-cols-2">
-        <div className="flex flex-col justify-center md:pr-10 py-4">
+      <div className="max-w-7xl grid md:grid-cols-2 h-full">
+        <div className="flex flex-col justify-center md:pr-10 py-4 h-full">
           <div className="w-fit" data-aos="fade-in">
             <p
               className={`text-3xl mb-4 font-bold text-[#42526D] ${outerSansRegular.className}`}
@@ -34,7 +34,7 @@ const Section2 = () => {
           </div>
         </div>
         <div
-          className="md:border-l-2 px-4 md:pl-10 text-[#42526D]"
+          className="md:border-l-2 px-4 md:pl-10 flex flex-col justify-center h-full  text-[#42526D]"
           data-aos="fade-in"
         >
           <div className="border-t-2 md:border-t-0 py-4">

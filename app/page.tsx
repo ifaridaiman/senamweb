@@ -7,7 +7,7 @@ import Section5 from "./partials/section5";
 import AOS from "aos";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
-import Navbar from "@/components/Navbar";
+import GoTop from "@/components/GoTop";
 
 export default function Home() {
   useEffect(() => {
@@ -20,13 +20,13 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
       <Footer />
+      <GoTop/>
     </>
   );
 }

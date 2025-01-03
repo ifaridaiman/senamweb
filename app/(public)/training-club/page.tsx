@@ -25,8 +25,9 @@ const Page = () => {
         <div className="relative top-0 left-0 w-full  h-36 shadow-2xl bg-gradient-to-b from-transparent to-black z-10"></div>
 
         <Section2 />
-        <Section3 />
         <Section4 />
+        <Section3 />
+        
         <Section5 />
       </div>
     </>
