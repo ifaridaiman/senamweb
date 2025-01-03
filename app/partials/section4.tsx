@@ -14,7 +14,7 @@ const Section4 = () => {
       className="bg-[#FAFBEA] h-auto md:h-screen flex justify-center items-center px-8 gap-4"
     >
       <div className="max-w-7xl grid md:grid-cols-2 h-full">
-        <div className="order-2 md:order-1 md:border-r-2 px-4 md:pr-10 py-10 items-center flex flex-row justify-center  h-full">
+        <div className="order-2 md:order-1 md:border-r-2 border-[#575757] px-4 md:pr-10 py-10 items-center flex flex-row justify-center  h-full">
           <div className="pt-8 md:pt-0">
             <Swiper
               slidesPerView={"auto"}

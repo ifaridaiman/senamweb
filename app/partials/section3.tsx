@@ -38,7 +38,7 @@ const Section3 = () => {
             {/* <p className="text-white text-base mt-4">{`Our coaches are experts in their field, ensuring a consistent and high-quality fitness experience for every participant.`}</p> */}
           </div>
         </div>
-        <div className="md:border-l-2 px-4 md:pl-10 py-10 items-center flex flex-row justify-center  h-full">
+        <div className="md:border-l-2 border-slate-900 px-4 md:pl-10 py-10 items-center flex flex-row justify-center  h-full">
           <div className=" border-t-2 md:border-t-0 pt-8 md:pt-0  ">
             <Swiper
               slidesPerView={'auto'}

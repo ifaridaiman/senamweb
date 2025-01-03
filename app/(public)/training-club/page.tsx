@@ -8,6 +8,7 @@ import Section3 from "./partials/Section3";
 import Section4 from "./partials/Section4";
 import Section5 from "./partials/Section5";
 import Navbar from "@/components/Navbar";
+import Footer from "./partials/Footer";
 
 const Page = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const Page = () => {
         
         <Section5 />
       </div>
+      {/* <Footer/> */}
     </>
   );
 };

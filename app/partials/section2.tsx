@@ -34,7 +34,7 @@ const Section2 = () => {
           </div>
         </div>
         <div
-          className="md:border-l-2 px-4 md:pl-10 flex flex-col justify-center h-full  text-[#42526D]"
+        className="md:border-l-2 border-[#575757] px-4 md:pl-10 flex flex-col justify-center h-full  text-[#42526D]"
           data-aos="fade-in"
         >
           <div className="border-t-2 md:border-t-0 py-4">
