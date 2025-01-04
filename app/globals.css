@@ -24,28 +24,44 @@ body {
   display: none;
 }
 
-.typewriter h1 {
+.typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid orange; /* The typewriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  margin: 0 auto; /* Center alignment */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: blink-caret 0.75s step-end infinite;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.typewriter-text {
+  display: inline-block;
+  animation: typewriter-animation 6s steps(40, end) infinite;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+/* Dynamically add content */
+.typewriter-text::before {
+  content: "Strength"; /* Default content */
+  animation: typewriter-content 6s infinite;
 }
+
+/* Typing and erasing effect */
+@keyframes typewriter-animation {
+  0%, 10% { width: 0; }              /* Erase before "Strength" */
+  20%, 35% { width: 8ch; }           /* Typing "Strength" */
+  40%, 50% { width: 0; }             /* Erasing "Strength" */
+  55%, 65% { width: 4ch; }           /* Typing "Grid" */
+  70%, 75% { width: 0; }             /* Erasing "Grid" */
+  80%, 95% { width: 6ch; }           /* Typing "Ground" */
+  100% { width: 0; }                 /* Erasing "Ground" before loop */
+}
+
+/* Content switching animation */
+@keyframes typewriter-content {
+  0%, 35% { content: "Strength"; }   /* Show "Strength" */
+  40%, 65% { content: "Grid"; }      /* Show "Grid" */
+  70%, 100% { content: "Ground"; }   /* Show "Ground" */
+}
+
 
 /* Fade-in animation from top to bottom */
 @keyframes fadeInFromTop {

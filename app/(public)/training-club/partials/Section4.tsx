@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Section4 = () => {
   return (
-    <div className="bg-[#FAFBEA] h-auto pt-10 md:pt-24 text-[#42526D]">
+    <div className="bg-[#FAFBEA] h-auto pt-10 md:pt-24 text-black">
       <div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row justify-top p-8" data-aos="fade-up">
         <div className="w-full md:w-1/2">
           <h1 className={`${outerSansRegular.className} text-5xl mb-8`}>
@@ -22,17 +22,16 @@ const Section4 = () => {
         <div className="w-full md:w-1/2">
           <div>
             <p className={`${mulishLight.className} text-xl md:text-2xl mt-4`}>
-              Every session has a purpose and is designed to help you achieve
-              fat loss, build muscle, and improve your overall fitness.
+              Every session has a <span className={`${mulishBold.className}`}>purpose</span> and is designed to help you achieve
+              <span className={`${mulishBold.className}`}>fat loss, build muscle,</span> and improve your <span className={`${mulishBold.className}`}>overall fitness.</span>
             </p>
             <p className={`${mulishLight.className} text-xl md:text-2xl mt-4`}>
-              Our program runs for 2 months (8 weeks) and focuses on building
-              strength, endurance, conditioning, and cardio. Unlike short-term
-              boot camps, this program is designed to help you achieve long-term
-              results and progress consistently.
+              Our program runs for <span className={`${mulishBold.className}`}>2 months (8 weeks)</span> and focuses on building
+              strength, endurance, conditioning, and cardio. <span className={`${mulishBold.className}`}>Not a short-term bootcamp like Senam did before,</span> this program is designed to help you achieve long-term
+              results and make consistent progress over time.
             </p>
             <p className={`${mulishLight.className} text-xl md:text-2xl mt-4`}>
-              After 8 weeks, the program cycles back to Week 1, keeping your
+              <span className={`${mulishBold.className}`}>After 8 weeks, the program cycles back to Week 1,</span> keeping your
               training balanced and purposeful. Each phase integrates GRID and
               GROUND sessions into a complete fitness journey.
             </p>

@@ -13,6 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage:{
+        "hero-banner-desktop-1": "url('/assets/background/senamClub_banner_desktop1.png')",
+        "hero-banner-mobile-1": "url('/assets/background/senamClub_banner_mobile1.png')",
         "hero-comingSoon-banner-desktop": "url('/assets/comingSoon/senamClub_comingsoon1_desktop.png')",
         "hero-comingSoon-banner-mobile": "url('/assets/comingSoon/senamClub_comingsoon1_mobile.png')",
         "hero-trainingCLub-banner-1" : "url('/assets/background/senamClub_HeroBanner_TrainingCLub-1.jpg')",

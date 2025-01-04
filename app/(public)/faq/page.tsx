@@ -8,6 +8,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import faqData from "./contents/faq.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { outerSansMedium, outerSansRegular } from "@/app/fonts/font";
 
 // Define types for the FAQ structure
 interface FAQItem {
@@ -34,7 +35,7 @@ const Page: React.FC = () => {
           {/* Header Section */}
           <div className="flex flex-col items-start w-full max-w-6xl mt-12">
             <div className="mb-8 md:mb-0">
-              <p className="text-[#C7F33B] text-4xl font-bold">FAQS</p>
+              <p className={`text-[#C7F33B] text-4xl font-bold ${outerSansRegular.className}`}>FAQS</p>
             </div>
             <div className="flex flex-col gap-6 mt-8">
               <div
@@ -44,7 +45,7 @@ const Page: React.FC = () => {
                 onClick={() => setStateFaq(true)}
               >
                 <Image src={"/assets/logo/senamLogoWhite_IconOnly.svg"} alt="logoSenam" width={40} height={40} />
-                <p className="text-white text-lg font-semibold">ABOUT SENAM</p>
+                <p className={`text-white text-lg font-semibold ${outerSansMedium.className}`}>ABOUT SENAM</p>
               </div>
               <div
                 className={`flex items-center gap-4 cursor-pointer ${
@@ -53,7 +54,7 @@ const Page: React.FC = () => {
                 onClick={() => setStateFaq(false)}
               >
                 <Image src={"/assets/logo/iconMembership_iconOnly.svg"} alt="logoSenam" width={40} height={40} />
-                <p className="text-white text-lg font-semibold">
+                <p className={`text-white text-lg font-semibold ${outerSansRegular.className}`}>
                   MEMBERSHIP POLICY
                 </p>
               </div>

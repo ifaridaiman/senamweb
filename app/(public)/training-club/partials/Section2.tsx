@@ -8,42 +8,59 @@ const Section2 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div data-aos="fade-up">
             <p className={`${mulishBold.className} text-2xl md:text-5xl`}>
-              How does Senam Training Work?
+              WHAT WE OFFER
             </p>
           </div>
           <div data-aos="fade-up">
             <p className={`${mulishLight.className} text-xl md:text-2xl`}>
-              Each day, at Senam Hub, there are two sessions that run
-              simultaneously, side by side: GRID (Strength Zone) and GROUND
-              (Conditioning Zone).
+              Senam Hub is a strength and conditioning space designed for all
+              fitness levels and age groups. Offering a modern and inspiring
+              environment that blends lifestyle and community, Senam is
+              dedicated to delivering an elite workout experience.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
-              <div>
-                <h3 className={`${outerSansRegular.className} text-xl md:text-2xl mb-4`}>GRID</h3>
-                <p className={`${mulishLight.className} text-base md:text-xl`}>
-                  Our GRID sessions prioritize strength, power, muscular
-                  endurance, and functional and hypertrophy training. By
-                  progressively overloading movement patterns, improving range
-                  of motion, and refining technique, GRID helps you build a
-                  strong, balanced, and resilient body.
-                </p>
-              </div>
-              <div>
-                <h3 className={`${outerSansRegular.className} text-xl md:text-2xl mb-4`}>GROUND</h3>
-                <p className={`${mulishLight.className} text-base md:text-xl`}>
-                  Our GROUND sessions combine conditioning and functional
-                  movements to improve your overall cardiovascular work capacity
-                  and stamina. These workouts are designed to challenge and
-                  elevate your fitness to the next level.
-                </p>
-              </div>
-            </div>
-            <div className=" mt-10">
-              <h5 className={`${outerSansRegular.className} text-xl md:text-2xl mb-4`}>Our program changes every other day.</h5>
+
+            <div className="mt-8">
+              <h3
+                className={`${outerSansRegular.className} text-xl md:text-2xl mb-4`}
+              >
+                Senam Wangsa Maju Membership
+              </h3>
               <p className={`${mulishLight.className} text-base md:text-xl`}>
-                The choice is completely up to you—you can alternate between
-                GRID and GROUND sessions each day, depending on your goals.
+                Memberships are 2 months commitment that auto-renew every 2
+                month. You can opt to have your contract expire at the end of
+                the 2 months before it auto-renews at no cost.
               </p>
+            </div>
+            <div className="mt-8">
+              <h3
+                className={`${outerSansRegular.className} text-xl md:text-2xl mb-4`}
+              >
+                What Does Senam Membership Give You?
+              </h3>
+              <ul
+                className={`${mulishLight.className} text-xl md:text-2xl list-disc ml-5 md:ml-8`}
+              >
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  <span className={`${mulishBold.className}`}>Unlimited access</span> to 20+ group strength & conditioning sessions
+                  weekly.
+                </li>
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  <span className={`${mulishBold.className}`}>Nutritional advice</span> to complement your training.
+                </li>
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  Exciting <span className={`${mulishBold.className}`}>challenges</span> to keep you motivated and progressing.
+                </li>
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  Exclusive access to our <span className={`${mulishBold.className}`}>private online community</span> for support
+                  and engagement.
+                </li>
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  Special <span className={`${mulishBold.className}`}>events</span> and <span className={`${mulishBold.className}`}>workshops</span> throughout the year.
+                </li>
+                <li className={`${mulishLight.className} text-base md:text-xl`}>
+                  Complimentary <span className={`${mulishBold.className}`}>InBody checkups</span> to track your progress
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -7,13 +7,13 @@ import { LuMoveDown } from "react-icons/lu";
 const Section1 = () => {
   return (
     <div
-      className="text-white h-screen bg-hero-trainingCLub-banner-logo bg-cover bg-center sticky top-0 z-10"
+      className="text-[#f9f7ed] h-screen bg-hero-trainingCLub-banner-logo bg-cover bg-center sticky top-0 z-10"
       style={{ isolation: "isolate" }}
     >
       <div className="flex justify-center items-center flex-col gap-28 h-full">
         <div className="flex justify-center items-center flex-col gap-56">
           <h2 className={`${outerSansRegular.className} text-6xl text-center pb-28`}>
-            Training Club
+            TRAINING CLUB
           </h2>
           {/* <Image
             src={"/assets/logo/senamLogo_IconOnly.png"}

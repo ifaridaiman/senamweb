@@ -3,18 +3,18 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <div className="bg-[#FAFBEA] text-[#42526D] h-auto py-10 md:py-24">
+    <div className="bg-[#FAFBEA] text-black h-auto py-10 md:py-24">
       <div
-        className="max-w-7xl mx-auto h-full flex flex-col justify-top p-8"
+        className="max-w-7xl mx-auto h-full flex flex-col md:flex-row justify-top p-8"
         data-aos="fade-up"
       >
-        <div>
-          <h1 className={`${outerSansRegular.className} text-5xl  `}>
-            Know your sessions
+        <div className="w-full md:w-1/2">
+          <h1 className={`${outerSansRegular.className} text-7xl  `}>
+            Know your <br/> sessions
           </h1>
         </div>
-        <div className="flex flex-col md:flex-row gap-8 mt-10">
-          <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 gap-8 ">
+          <div className="w-full">
             <div>
               <h3
                 className={`${outerSansRegular.className} text-xl md:text-2xl`}
@@ -24,22 +24,20 @@ const Section3 = () => {
               <p
                 className={`${mulishLight.className} text-xl md:text-2xl mt-4`}
               >
-                Push your limits in GRID sessions by focusing on compound
-                movements like squats, deadlifts, bench presses, and hip
-                thrusts, along with other foundational exercises designed to
-                build strength and muscle.
-              </p>
-              <p className={`${mulishLight.className} text-xl md:text-2xl`}>
-                Take your training to the next level with dynamic exercises such
-                as cleans, push presses, thrusters, and barbell complexes.{" "}
-              </p>
-              <p className={`${mulishLight.className} text-xl md:text-2xl`}>
-                GRID sessions are built around developing Strength power, and
-                endurance, helping you achieve a well-rounded and resilient
-                body.
+                Our GRID sessions prioritize{" "}
+                <span className={`${mulishBold.className}`}>
+                  strength, power, muscular endurance,
+                </span>{" "}
+                and{" "}
+                <span className={`${mulishBold.className}`}>functional</span>{" "}
+                and{" "}
+                <span className={`${mulishBold.className}`}>hypertrophy</span>{" "}
+                training. By progressively overloading movement patterns,
+                improving range of motion,and refining technique, GRID helps you
+                build a strong, balanced, and resilient body.
               </p>
             </div>
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h5
                 className={`${outerSansRegular.className} text-2xl md:text-3xl`}
               >
@@ -69,9 +67,9 @@ const Section3 = () => {
                   Deadlifts
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full mt-8">
             <div>
               <h3
                 className={`${outerSansRegular.className} text-xl md:text-2xl`}
@@ -81,31 +79,31 @@ const Section3 = () => {
               <p
                 className={`${mulishLight.className} text-xl md:text-2xl mt-4`}
               >
-                GROUND sessions combine a variety of cardiovascular movements,
-                refreshed weekly to keep your workouts engaging and dynamic. The
-                primary goal is to improve your ability to sustain both physical
-                and mental stamina over extended periods, ensuring steady
-                progress and a stronger, healthier you.
+                Our GROUND sessions combine{" "}
+                <span className={`${mulishBold.className}`}>conditioning</span>{" "}
+                and{" "}
+                <span className={`${mulishBold.className}`}>
+                  functional movements
+                </span>{" "}
+                to improve your overall cardiovascular work capacity and
+                stamina. These workouts are designed to challenge and elevate
+                your fitness to the next level.
               </p>
             </div>
             <div className="mt-8">
-              <h5
-                className={`${outerSansRegular.className} text-2xl md:text-3xl`}
+              <p
+                className={`${mulishLight.className} text-xl md:text-2xl mt-4`}
               >
-                GROUND Training Throughout the Week
-              </h5>
-              <div className="mt-4">
-                <p className={`${mulishBold.className} text-xl md:text-2xl`}>
-                  Monday & Friday
-                </p>
-                <ul
-                  className={`list-disc ml-5 md:ml-8 text-xl md:text-2xl ${mulishLight.className}`}
-                >
-                  <li>Power-Focused Interval Weight Training</li>
-                  <li>Building Cardiovascular Endurance</li>
-                  <li>Enhancing Energy Systems</li>
-                </ul>
-              </div>
+                Each day, at Senam, there are <span className={`${mulishBold.className}`}>two sessions that run
+                simultaneously,</span> side by side: <span className={`${mulishBold.className}`}>GRID (Strength Zone)</span> and <span className={`${mulishBold.className}`}>GROUND
+                (Conditioning Zone)</span>.
+              </p>
+              <p
+                className={`${mulishLight.className} text-xl md:text-2xl mt-4`}
+              >
+                <span className={`${mulishBold.className}`}>The choice is completely up to you</span>—you can alternate between <span className={`${mulishBold.className}`}>GRID</span> and <span className={`${mulishBold.className}`}>GROUND</span> 
+                sessions each day, depending on your goals and how you feel.
+              </p>
             </div>
           </div>
         </div>

@@ -3,13 +3,14 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { SignedIn, UserButton } from "@clerk/nextjs";
+import { outerSansRegular } from "@/app/fonts/font";
 const Navbar = () => {
   const [colorSection, setColorSection] = useState("#C9DA2C");
   const [logoMobileSrc, setLogoMobileSrc] = useState(
     "/assets/logo/senamLogo_IconOnly.png"
   );
   const [logoDesktopSrc, setLogoDesktopSrc] = useState(
-    "/assets/logo/senamLogo_vertical.png"
+    "/assets/logo/SENAM_LOGO.png"
   );
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -55,7 +56,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="block z-50">
+    <div className={`block z-50 ${outerSansRegular.className}`}>
       <div
         className="flex justify-between items-center max-w-7xl mx-auto py-6  top-0 px-8"
         style={{ transition: "background-color 0.3s ease" }}
@@ -71,7 +72,7 @@ const Navbar = () => {
           <Image
             className="hidden md:block"
             src={logoDesktopSrc}
-            width={200}
+            width={80}
             height={100}
             alt="LogoImage"
           />

@@ -43,22 +43,24 @@ const Footer = () => {
                 >
                   Contact Us
                 </h4>
-                <p
+                <Link
+                  href={'https://wa.me/message/EWVNREJV6VZEO1'}
                   className={`${mulishLight.className} text-base text-black flex items-center gap-5`}
                 >
                   <span>
                     <FaWhatsapp />
                   </span>{" "}
-                  +6012-345 6789
-                </p>
-                <p
+                  +6017 - 606 2018
+                </Link>
+                <Link
+                href={'mailto:senamclub@gmail.com'}
                   className={`${mulishLight.className} text-base text-black flex items-center gap-5`}
                 >
                   <span>
                     <MdOutlineMailOutline />
                   </span>{" "}
-                  info@senamclub.my
-                </p>
+                  senamclub@gmail.com
+                </Link>
               </div>
             </div>
             <div className="text-black flex gap-8 pb-10">
@@ -97,7 +99,7 @@ const Footer = () => {
               <div className="flex justify-start mt-8">
                 <Link
                   href={"https://bookings.vibefam.com/senamhub/signup/"}
-                  className={`p-5 bg-[#C9DA2C] w-fit rounded text-[#42526D] ${outerSansLight.className}`}
+                  className={`p-5 bg-[#daff00] w-fit rounded text-[#42526D] ${outerSansLight.className}`}
                   target="_blank"
                 >
                   Become a member

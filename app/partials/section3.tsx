@@ -11,7 +11,7 @@ const Section3 = () => {
     <section
       id="section3"
       data-color="#292929"
-      className="bg-[#292929] h-auto md:h-screen flex justify-center items-center px-8 gap-4"
+      className="bg-black h-auto md:h-screen flex justify-center items-center px-8 gap-4"
     >
       <div className="max-w-7xl grid md:grid-cols-2 h-full">
         <div
@@ -20,22 +20,22 @@ const Section3 = () => {
         >
           <div className="px-4">
             <p
-              className={`text-white text-4xl md:text-9xl font-black ${outerSansMedium.className}`}
+              className={`text-[#f9f7ed] text-4xl md:text-9xl font-black ${outerSansMedium.className}`}
             >
               01.
             </p>
           </div>
           <div className=" w-fit">
             <p
-              className={`text-white text-5xl mb-4 font-bold ${outerSansRegular.className}`}
+              className={`text-[#f9f7ed] text-5xl mb-4 font-bold ${outerSansRegular.className}`}
             >
               Certified <br /> Coaches
             </p>
             <hr className="border-white" />
             <p
-              className={`text-white text-base mt-4 ${mulishLight.className}`}
+              className={`text-[#f9f7ed] text-base mt-4 ${mulishLight.className}`}
             >{`Led by founder Isrul Firdaus, our team of SenamCoaches is here to motivate and assist you in achieveing your health and fitness goals. Our coaches are experts in their field, ensuring a consistent and high-quality fitness exprience for every participants.`}</p>
-            {/* <p className="text-white text-base mt-4">{`Our coaches are experts in their field, ensuring a consistent and high-quality fitness experience for every participant.`}</p> */}
+            {/* <p className="text-[#f9f7ed] text-base mt-4">{`Our coaches are experts in their field, ensuring a consistent and high-quality fitness experience for every participant.`}</p> */}
           </div>
         </div>
         <div className="md:border-l-2 border-slate-900 px-4 md:pl-10 py-10 items-center flex flex-row justify-center  h-full">
