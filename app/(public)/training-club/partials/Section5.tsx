@@ -1,5 +1,4 @@
 import {
-  mulishBold,
   mulishLight,
   outerSansLight,
   outerSansMedium,
